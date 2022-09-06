@@ -234,20 +234,31 @@ footer {
 }
 
 .badges {
-	list-style-type: none;
+  list-style-type: none;
+}
+
+.seymour-badges {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  margin-right: 5%;
 }
 
 .badge {
-	width: auto;
-	padding: 8px;
-	border-radius: 10px;
-	background-color: #C6DEFF;
-	color: #111F72;
-	margin-bottom: 10px;
-	display: inline-block;
-	padding: 10px;
-	font-size: 13px;
-	font-family:Arial, Helvetica, sans-serif;
+  width: auto;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #C6DEFF;
+  color: #111F72;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 13px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 a{
@@ -260,11 +271,11 @@ ul{
 
 /* --------------------------------
 
-							BLOG
+              BLOG
 
 ----------------------------------- */
 .read-more {
-	color: #111F72;
+  color: #111F72;
 }
 
 .blog-img {
@@ -424,7 +435,7 @@ div>iframe {
 }
 
 #seymour-repo-btn {
-	background-color: var(--main-color);
+  background-color: var(--main-color);
   border: solid 1px var(--main-color);
   margin-top: 18px;
   width: 228px;
