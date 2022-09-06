@@ -1,5 +1,5 @@
 # My personal website
 
-Here's the source code for my website, written in vanilla HTML, CSS and JS.
+The source code for personal website, written in vanilla HTML, CSS and JS.
 # katarinarosiak.github.io
 
