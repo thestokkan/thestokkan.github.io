@@ -7,9 +7,9 @@
 
 ------------------------------------ */
 :root {
-  --main-color: #111F72;
-  --seymour-color: #C6DEFF;
-  --secondary-color: #F4B84F;
+  --main-color: #114444;
+  --floatingmetrics-color: #C6DEFF;
+  --secondary-color: #b9811f;
 }
 
 body {
@@ -139,17 +139,17 @@ a {
   text-decoration: none;
 }
 
-a.seymour {
+a.floatingmetrics {
   color: var(--main-color);
 }
 
-a.seymour:hover {
-  color: var(--seymour-color);
+a.floatingmetrics:hover {
+  color: var(--floatingmetrics-color);
   transition: 0.2s;
 }
 
 a.email {
-  color: var(--seymour-color);
+  color: var(--floatingmetrics-color);
 }
 
 a.email:hover {
@@ -361,44 +361,44 @@ ul{
 
 /* ---------------------------------
 
-               #seymour
+               #floatingmetrics
 
 ------------------------------------ */
 
-#seymour {
+#floatingmetrics {
   background-color: #ecf0f1;
 }
 
-#seymour-title-container,
-#seymour-video-container {
+#floatingmetrics-title-container,
+#floatingmetrics-video-container {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
 }
 
-#seymour-logo {
+#floatingmetrics-logo {
   display: inline-block;
   width: 100%;
   max-width: 400px;
   min-width: 200px;
 }
 
-#seymour h2 {
+#floatingmetrics h2 {
   display: inline-block;
 }
 
-#seymour-info-container,
-#seymour-video-container {
+#floatingmetrics-info-container,
+#floatingmetrics-video-container {
   margin-top: 75px;
 }
 
-#seymour-info-container>div,
-#seymour-video-container>div {
+#floatingmetrics-info-container>div,
+#floatingmetrics-video-container>div {
   width: 50%;
 }
 
-#seymour-info-container>div:first-of-type,
-#seymour-video-container>div:first-of-type {
+#floatingmetrics-info-container>div:first-of-type,
+#floatingmetrics-video-container>div:first-of-type {
   margin-right: 2.5%;
 }
 
@@ -413,26 +413,26 @@ div>iframe {
   max-width: 100%;
 }
 
-#seymour-info-container>div:last-of-type,
-#seymour-video-container>div:last-of-type {
+#floatingmetrics-info-container>div:last-of-type,
+#floatingmetrics-video-container>div:last-of-type {
   margin-left: 2.5%;
 }
 
-#seymour p:first-of-type {
+#floatingmetrics p:first-of-type {
   position: relative;
   top: -0.5rem;
 }
 
-#seymour-repo-btn {
+#floatingmetrics-repo-btn {
   background-color: var(--main-color);
   border: solid 1px var(--main-color);
   margin-top: 18px;
   width: 228px;
 }
 
-#seymour-repo-btn:hover {
-  background-color: var(--seymour-color);
-  border: solid 1px var(--seymour-color);
+#floatingmetrics-repo-btn:hover {
+  background-color: var(--floatingmetrics-color);
+  border: solid 1px var(--floatingmetrics-color);
   transition: 0.2s;
 }
 
@@ -538,30 +538,30 @@ div>iframe {
     width: 50px;
   }
 
-  #seymour-info-container,
-  #seymour-video-container {
+  #floatingmetrics-info-container,
+  #floatingmetrics-video-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
   }
 
-  #seymour-info-container p:first-of-type {
+  #floatingmetrics-info-container p:first-of-type {
     margin-top: 0.5rem;
   }
 
-  #seymour-info-container>div:first-of-type,
-  #seymour-video-container>div:first-of-type {
+  #floatingmetrics-info-container>div:first-of-type,
+  #floatingmetrics-video-container>div:first-of-type {
     margin-right: 0;
   }
 
-  #seymour-info-container>div:last-of-type,
-  #seymour-video-container>div:last-of-type {
+  #floatingmetrics-info-container>div:last-of-type,
+  #floatingmetrics-video-container>div:last-of-type {
     margin-left: 0;
   }
 
-  #seymour-info-container>div,
-  #seymour-video-container>div {
+  #floatingmetrics-info-container>div,
+  #floatingmetrics-video-container>div {
     width: 90%;
   }
 
@@ -580,18 +580,18 @@ div>iframe {
 }
 
 @media (max-width: 690px) {
-  #seymour-logo {
+  #floatingmetrics-logo {
     margin-bottom: 25px;
     width: 75px;
   }
 
-  #seymour-title-container {
+  #floatingmetrics-title-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
   }
 
-  #seymour-logo {
+  #floatingmetrics-logo {
     margin-right: 0;
   }
 }
@@ -614,11 +614,11 @@ div>iframe {
     padding: 65px 15%;
   }
 
-  #seymour-info-container {
+  #floatingmetrics-info-container {
     margin-top: 25px;
   }
 
-  #seymour-repo-btn {
+  #floatingmetrics-repo-btn {
     align-self: center;
   }
 
@@ -628,11 +628,11 @@ div>iframe {
 }
 
 @media (max-width: 465px) {
-  #seymour-info-container>div {
+  #floatingmetrics-info-container>div {
     width: 100%;
   }
 
-  #seymour-logo {
+  #floatingmetrics-logo {
     width: 60px;
   }
 
@@ -662,7 +662,7 @@ div>iframe {
     font-size: 1.2rem;
   }
 
-  #seymour-repo-btn {
+  #floatingmetrics-repo-btn {
     width: 180px;
   }
 
